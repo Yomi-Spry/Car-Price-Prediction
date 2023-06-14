@@ -15,8 +15,7 @@ The repository is structured as follows:
 
 - `Trader.py`: This directory contains a web application for car price prediction. Users can input car details, and the application will return an estimated price based on the trained model.
 
-- 
-`requirements.txt`: This file lists all the required Python libraries and dependencies to run the project.
+- `requirements.txt`: This file lists all the required Python libraries and dependencies to run the project.
 
 ## Usage
 To use this project, follow these steps:
