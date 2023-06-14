@@ -62,7 +62,7 @@ def main():
           'Alpine','Daihatsu','Pilgrim','Holden']
     standard_make = st.selectbox("MAKE",make)
     
-    model= ['Golf','Corsa','C Class','3 Series','1 Series','Qashqai','Polo','Hatch','Astra','A3',\
+    models= ['Golf','Corsa','C Class','3 Series','1 Series','Qashqai','Polo','Hatch','Astra','A3',\
             'A Class','Juke','500','E Class','A1','Sportage','Yaris','Clio','Range Rover Evoque',\
             'Leon','5 Series','AYGO','Octavia','208','Fabia','Tiguan','Insignia','Captur','Jazz',\
             'Civic','Ibiza','A5','i10','Mokka X','3008','4 Series','2008','Tucson','XC60','Passat',\
@@ -546,7 +546,7 @@ def main():
              '4007',
              'IS F',
              'Signum']
-    standard_model= st.selectbox("MODEL",model)
+    standard_model= st.selectbox("MODEL",models)
     
     vehicle_condition = st.radio("VEHICLE CONDITION", ["NEW", "USED"])
     
