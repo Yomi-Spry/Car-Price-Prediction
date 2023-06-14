@@ -40,8 +40,8 @@ def predictors (mileage,standard_colour,standard_make,standard_model,\
     data=pipe.transform(data)
     data=auto.transform(data)
     prediction=model.predict(data)
-    return f"£{round(prediction[0], 2)}"
-
+    # return f"£{round(prediction[0],2)}"
+    return "£{:.2f}".format(prediction[0])
 
 
 
